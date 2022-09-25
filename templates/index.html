@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Geno</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+          style="background-color: #e3f2fd"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Geno</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="{{url_for('home')}}"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href=""
+                  >Fetures</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="index.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Role
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="{{url_for('teachers')}}"
+                      >Teacher</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item" href="#">Student</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section>
+      <div class="container">
+        <div class="row align-items-center reverse">
+          <div class="col-lg-6">
+            <h2>Often times emotions are not openly shared or discussed</h2>
+            <p>
+              Those questions which should be asked on a regular basis and the
+              happiness of your child/student should be constantly monitored.
+              and that's we come up with solution
+            </p>
+            <div class="first-section_buttons">
+              <button type="button" class="btn btn-primary">Get started</button>
+              <a href="{{url_for('login')}}"
+                ><button type="button" class="btn btn-outline-primary">
+                  Log in
+                </button></a
+              >
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img
+              class="que-img"
+              src="https://thumbs.dreamstime.com/b/school-mental-health-word-cloud-wordcloud-made-text-school-mental-health-word-cloud-126516313.jpg"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <img
+              src="https://static.happify.com/static/img/wellness_landing/break_old_patterns.svg?cb095b75929a52bb4da75e8e9ad32a6da3e89c9d"
+              style="margin-right: 400px"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h2>
+              Break old patterns,<br />
+              form new habits
+            </h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Assumenda aspernatur commodi neque nobis? Tempore ullam quo
+              repellendus dolorum expedita perferendis dolore? Similique ipsum
+              quidem corporis, rerum quibusdam obcaecati odio dicta? Odio illum
+              tempore, harum deleniti libero magni aspernatur sed pariatur?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container mb-5">
+        <div class="row align-items-center reverse">
+          <div class="col-lg-6">
+            <h2>
+              Simple & effective solutions <br />for your mental health &
+              well‑being
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, ad
+              quo fugiat veniam unde labore aliquam architecto odit ratione
+              perferendis, tempore maxime hic eos in quam dolorum omnis porro
+              est.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <img
+              class="que-img"
+              src="https://static.happify.com/static/img/wellness_landing/simple_effective2x.png?cb095b75929a52bb4da75e8e9ad32a6da3e89c9d"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
