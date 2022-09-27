@@ -37,3 +37,13 @@ Student Page:
 - Chart and Graphs Of daily mood and Activities 
 - Over All happiness index using Monthly survey and Daily mood tracking
 
+<hr>
+</hr>
+
+## Extra:
+### Login(School)(/school)
+School Page:
+- List of Rooms created by class teacher
+- Over All School Happiness Index(/school/over-all-happiness-index)
+- suggestion for teachers how to improve thier class's happiness index
+
