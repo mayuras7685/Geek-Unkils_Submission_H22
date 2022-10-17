@@ -32,10 +32,6 @@ Teachers Page:
 Student Page:
 - username and password provide by teacher
 - Monthly Happiness survey(questions)
-- daily mood traking(/student/mood-tracking)
-- results of previous surveys(/student/over-all-happiness-index)
-- Chart and Graphs Of daily mood and Activities 
-- Over All happiness index using Monthly survey and Daily mood tracking
 
 <hr>
 </hr>
@@ -47,3 +43,19 @@ School Page:
 - Over All School Happiness Index(/school/over-all-happiness-index)
 - suggestion for teachers how to improve thier class's happiness index
 
+### School Student and Teachers Daily Mood Diary/Post related to Thier daily school Experiance 
+- All student Post are annonymes 
+- if any student wants to revel thier identity for particular post he/she allowed to do that
+- Also AI use their posts for sentimental annalyisis and provide score(index) it also use to
+  messaure overall happiness index        
+  
+
+### Relief chatbot 
+- who can offer support when you are in distress
+- chatbot suggest some exercise to overcome stress or anexity
+- if Words like suscide, bullied, depression detect in chat relief bot save those students id for 
+  further Counciling  
+- daily mood traking(/student/mood-tracking)
+- results of previous surveys(/student/over-all-happiness-index)
+- Chart and Graphs Of daily mood and Activities 
+- Over All happiness index using Monthly survey and Daily mood tracking
